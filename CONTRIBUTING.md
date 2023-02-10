@@ -1,15 +1,12 @@
 ## Adding resources
 
-Please ensure your pull request adheres to the [guidelines](pull_request_template.md).
-
-## Adding some resources
-
 If you want to add a resource the list, this is how you do it.
+> Please ensure your pull request adheres to the [guidelines](pull_request_template.md).
 
 You'll need a [GitHub account](https://github.com/join)!
 
 1. Access the list's GitHub page. For example: https://github.com/Code-Society-Lab/resources
-2. Click on the `readme.md` file: 
+2. Click on the [`readme.md`](https://github.com/Code-Society-Lab/resources/README.md) file: 
 3. Now click on the edit icon.
 4. You can start editing the text of the file in the in-browser editor.
 5. Commit the changes, and then click on "Propose file change".
