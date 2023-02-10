@@ -2,7 +2,7 @@
 
 Please ensure your pull request adheres to the [guidelines](pull_request_template.md).
 
-## Adding something resources
+## Adding some resources
 
 If you want to add a resource the list, this is how you do it.
 
