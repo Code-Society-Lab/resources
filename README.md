@@ -2,6 +2,9 @@
 
 A collection of resources built by members of the [Code Society](https://codesociety.xyz/).
 
+## Add an item to the list
+To add item to the list, follow this [guide](https://github.com/Code-Society-Lab/resources/blob/main/CONTRIBUTING.md) 
+
 # Programming Languages
 
 ## C++ 
@@ -33,9 +36,11 @@ A collection of resources built by members of the [Code Society](https://codesoc
 
 ## Interpreters 
 
-
-
 | Name        | Description |
 | ----------- | ----------- |
 | [Crafting Interpreters](https://craftinginterpreters.com/contents.html) | A deep dive into writing tree walking and bytecode interpreters |
 | [Make a Lisp (MAL)](https://github.com/kanaka/mal) | A step-by-step tutorial into making a list processing interpreter |
+
+<br> 
+
+## Books
