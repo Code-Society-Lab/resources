@@ -41,13 +41,13 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 
 # Programming Patterns and Design
 
-| Name        | Author | Description |
-| ----------- | ------ | ----------- |
-| [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) Using Games as a reference point, this ebook covers tons of useful programming patterns |
-| [Gang of Four (GoF) Design patterns](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns) Detailed description and examples of multiple design patterns |
-| [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code)  Principales, patterns and practices of writing clean code |
-| [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) Building clean software architecture  |
-| [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) Learn software architecture principales |
+| Name        | Description |
+| ----------- | ----------- |
+| [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | Using Games as a reference point, this ebook covers tons of useful programming patterns |
+| [Gang of Four (GoF) Design patterns](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns) | Detailed description and examples of multiple design patterns |
+| [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) | Principales, patterns and practices of writing clean code |
+| [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) | Building clean software architecture  |
+| [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) | Learn software architecture principales |
 | [Software Architecture: The Hard Parts: Modern Tradeoff Analysis for Distributed Architectures](https://www.goodreads.com/book/show/58153482-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=2) | Learn in depth analysis of software architectures 
 
 <br>
