@@ -2,11 +2,7 @@
 
 Please ensure your pull request adheres to the [guidelines](pull_request_template.md).
 
-## Creating your own awesome list
-
-To create your own list, check out the [instructions](create-list.md).
-
-## Adding something to an awesome list
+## Adding something resources
 
 If you want to add a resource the list, this is how you do it.
 
@@ -25,6 +21,6 @@ necessary.
 
 ## Updating your Pull Request
 
-Sometimes, a maintainer of an awesome list will ask you to edit your Pull Request before it is included. This is normally due to spelling errors or because your PR didn't match the awesome-* list guidelines.
+Sometimes, a maintainer of the list will ask you to edit your Pull Request before it is included.
 
 [Here](https://github.com/RichardLitt/knowledge/blob/master/github/amending-a-commit-guide.md) is a write up on how to change a Pull Request, and the different ways you can do that.
