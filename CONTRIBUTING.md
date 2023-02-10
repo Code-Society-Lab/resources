@@ -6,7 +6,7 @@ If you want to add a resource the list, this is how you do it.
 You'll need a [GitHub account](https://github.com/join)!
 
 1. Access the list's GitHub page. For example: https://github.com/Code-Society-Lab/resources
-2. Click on the [`readme.md`](https://github.com/Code-Society-Lab/resources/README.md) file: 
+2. Click on the [`readme.md`](https://github.com/Code-Society-Lab/resources/blob/main/README.md) file: 
 3. Now click on the edit icon.
 4. You can start editing the text of the file in the in-browser editor.
 5. Commit the changes, and then click on "Propose file change".
