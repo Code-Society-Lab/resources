@@ -64,7 +64,13 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 <br> 
 
 # Development Tools
+
 | Name | Description |
 | ---- | ----------- |
 | [Git](https://git-scm.com/) | Distributed version control system |
 | [Github for Beginner](https://docs.github.com/en/get-started) | Github for Getting Started Guide
+
+# Web development
+| Name | Description |
+| ---- | ----------- |
+| [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
