@@ -79,3 +79,8 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | Name | Description |
 | ---- | ----------- |
 | [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
+
+# Machine Learning
+| Name | Description |
+| ---- | ----------- |
+| [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
