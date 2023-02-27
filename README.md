@@ -83,4 +83,4 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 # Machine Learning
 | Name | Description |
 | ---- | ----------- |
-| Learn Deeplearning(https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
+| [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
