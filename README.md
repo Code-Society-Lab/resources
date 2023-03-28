@@ -54,7 +54,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) | Building clean software architecture  |
 | [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) | Learn software architecture principales |
 | [Software Architecture: The Hard Parts: Modern Tradeoff Analysis for Distributed Architectures](https://www.goodreads.com/book/show/58153482-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=2) | Learn in depth analysis of software architectures 
-
+| [Model-View-Controller](https://developer.mozilla.org/en-US/docs/Glossary/MVC) | Explanation of the Model-View-Controller (MVC) architecture |
 <br>
 
 # Language Development
