@@ -12,6 +12,13 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 
 # Programming Languages
 
+## Assembly
+| Name        | Description |
+| ----------- | ----------- |
+| [The Netwide Assembler (NASM)](https://www.tutorialspoint.com/assembly_programming/) | Tutorial to learn NASM Assembly Language |
+| [Learn NASM](https://www.nasm.us/doc/) | This manual documents NASM, the Netwide Assembler: an assembler targeting the Intel x86 series of processors, with portable source.|
+
+
 ## C++
 
 | Name        | Description |
