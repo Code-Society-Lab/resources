@@ -18,7 +18,6 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | [The Netwide Assembler (NASM)](https://www.tutorialspoint.com/assembly_programming/) | Tutorial to learn NASM Assembly Language |
 | [Learn NASM](https://www.nasm.us/doc/) | This manual documents NASM, the Netwide Assembler: an assembler targeting the Intel x86 series of processors, with portable source.|
 
-
 ## C++
 
 | Name        | Description |
@@ -35,6 +34,13 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | [Getting started](https://www.python.org/about/gettingstarted/) | Offical Python getting started guide
 | [Learn Python](https://www.learnpython.org/) | An easy to follow guide to starting off in Python |
 | [Virtual environment](https://virtualenv.pypa.io/en/latest/index.html) | Virtual environment
+| [Python Tutorial](https://www.pythontutorial.net) | Free open source site towards learning Python |
+
+## Javascript
+
+| Name        | Description |
+| ----------- | ----------- |
+| [Learn Javascript Online](http://learnjavascript.online) | Free open source site towards learning modern Javascript through lessons and practical methods |
 
 ## Elixir
 | Name | Description |
@@ -81,11 +87,22 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | ---- | ----------- |
 | [Git](https://git-scm.com/) | Distributed version control system |
 | [Github for Beginner](https://docs.github.com/en/get-started) | Github for Getting Started Guide
+| [Git Tutorials](http://atlassian.com/git/tutorials) | Free open source site towards learning Git basics and advanced patterns |
 
 # Web development
 | Name | Description |
 | ---- | ----------- |
 | [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
+
+# Databases
+| Name | Description |
+| ---- | ----------- |
+| [SQL Bolt](http://sqlbolt.com) | Free open source site towards learning SQL |
+
+# DevOps / Infrastructure
+| Name | Description |
+| ---- | ----------- |
+| [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high level courses towards Devops that you can enroll to |
 
 # Machine Learning / Deep Learning / Artificial Intelligence
 | Name | Description |
