@@ -100,12 +100,15 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | ---- | ----------- |
 | [SQL Bolt](http://sqlbolt.com) | Free open source site towards learning SQL |
 
-# DevOps / Infra
+# DevOps / Infrastructure
 | Name | Description |
 | ---- | ----------- |
 | [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high level courses towards Devops that you can enroll to |
 
-# Machine Learning
+# Machine Learning / Deep Learning / Artificial Intelligence
 | Name | Description |
 | ---- | ----------- |
 | [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
+| [Deep Learning for Coders with Fastai and PyTorch](https://course.fast.ai/Resources/book.html) | A free book (supplement for below course) designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. |
+| [Practical Deep Learning](https://course.fast.ai/) | A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.|
+| [Learn Machine Learning](https://www.freecodecamp.org/news/free-machine-learning-course-10-hourse/) | A free 10-hour machine learning course for beginners on the freeCodeCamp.org YouTube channel. |
