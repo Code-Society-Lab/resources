@@ -93,6 +93,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | Name | Description |
 | ---- | ----------- |
 | [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
+| [REST API Best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/) | Best practices for REST API design |
 
 # Databases
 | Name | Description |
