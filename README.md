@@ -3,12 +3,12 @@
 A collection of resources built by members of the [Code Society](https://codesociety.xyz/).
 
 ## Add an item to the list
-To add item to the list, follow this [guide](https://github.com/Code-Society-Lab/resources/blob/main/CONTRIBUTING.md) 
+To add an item to the list, follow this [guide](https://github.com/Code-Society-Lab/resources/blob/main/CONTRIBUTING.md) 
 
 ## Learning
 | Name | Description |
 | ---- | ----------- |
-| [Developer Roadmaps](https://roadmap.sh/) | Community created roadmaps, articles, resources and journeys to help you choose your path and grow in your career. |
+| [Developer Roadmaps](https://roadmap.sh/) | Community-created roadmaps, articles, resources, and journeys to help you choose your path and grow in your career. |
 
 # Programming Languages
 
@@ -16,7 +16,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | Name        | Description |
 | ----------- | ----------- |
 | [The Netwide Assembler (NASM)](https://www.tutorialspoint.com/assembly_programming/) | Tutorial to learn NASM Assembly Language |
-| [Learn NASM](https://www.nasm.us/doc/) | This manual documents NASM, the Netwide Assembler: an assembler targeting the Intel x86 series of processors, with portable source.|
+| [Learn NASM](https://www.nasm.us/doc/) | This manual documents NASM, the Netwide Assembler: an assembler targeting the Intel x86 series of processors, with a portable source.|
 
 ## C++
 
@@ -25,6 +25,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | [Learn C++](https://www.learn-cpp.org/) | An easy to follow guide to starting off in C++ |
 | [Core Guidelines](http://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-cpl) | Recommended guidelines for modern C++ |
 | [CPP Reference](https://en.cppreference.com/w/) | Helpful reference material for the C++ and its standard library |
+| [Modern C++](https://github.com/changkun/modern-cpp-tutorial) | The purpose of this book is to offer a quick start for modern C++. Of course, advanced readers can also use this book to review and examine themselves on modern C++. |
 
 ## Python
 
@@ -32,7 +33,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | ----------- | ----------- |
 | [Python](https://www.python.org/) | Python official website
 | [Getting started](https://www.python.org/about/gettingstarted/) | Offical Python getting started guide
-| [Learn Python](https://www.learnpython.org/) | An easy to follow guide to starting off in Python |
+| [Learn Python](https://www.learnpython.org/) | An easy-to-follow guide to starting off in Python |
 | [Virtual environment](https://virtualenv.pypa.io/en/latest/index.html) | Virtual environment
 | [Python Tutorial](https://www.pythontutorial.net) | Free open source site towards learning Python |
 
@@ -40,7 +41,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 
 | Name        | Description |
 | ----------- | ----------- |
-| [Learn Javascript Online](http://learnjavascript.online) | Free open source site towards learning modern Javascript through lessons and practical methods |
+| [Learn Javascript Online](http://learnjavascript.online) | Free open-source site for learning modern Javascript through lessons and practical methods |
 
 ## Elixir
 | Name | Description |
@@ -56,6 +57,14 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | [Absinthe](https://hexdocs.pm/absinthe/overview.html) | GraphQL library |
 
 <br>
+
+# Data Structure & Algorithm
+
+| Name        | Description |
+| ----------- | ----------- |
+| [Think Data Structure using Java](https://greenteapress.com/wp/think-data-structures/) | Learn Data Structure concepts such as Array, LinkeList, HasMap, etc using Java. |
+| [Open Data Structure (available in Java, C++, and Pseudocode)](https://opendatastructures.org/) | Open Data Structures covers the implementation and analysis of data structures for sequences (lists), queues, priority queues, unordered dictionaries, ordered dictionaries, and graphs. |
+| [Algorithms using Pseudocode](https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf) | The textbook is based on lecture notes created for algorithms classes at the University of Illinois, stemming from a major revision in 2016 to adapt to changes in the undergraduate theory curriculum, particularly emphasizing fundamental content for the new required junior-level theory course. |
 
 # Programming Patterns and Design
 
@@ -87,7 +96,7 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 | ---- | ----------- |
 | [Git](https://git-scm.com/) | Distributed version control system |
 | [Github for Beginner](https://docs.github.com/en/get-started) | Github for Getting Started Guide
-| [Git Tutorials](http://atlassian.com/git/tutorials) | Free open source site towards learning Git basics and advanced patterns |
+| [Git Tutorials](http://atlassian.com/git/tutorials) | Free open source site for learning Git basics and advanced patterns |
 
 # Web development
 | Name | Description |
@@ -103,12 +112,12 @@ To add item to the list, follow this [guide](https://github.com/Code-Society-Lab
 # DevOps / Infrastructure
 | Name | Description |
 | ---- | ----------- |
-| [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high level courses towards Devops that you can enroll to |
+| [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high-level courses towards DevOps that you can enroll to |
 
 # Machine Learning / Deep Learning / Artificial Intelligence
 | Name | Description |
 | ---- | ----------- |
 | [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
-| [Deep Learning for Coders with Fastai and PyTorch](https://course.fast.ai/Resources/book.html) | A free book (supplement for below course) designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. |
+| [Deep Learning for Coders with Fastai and PyTorch](https://course.fast.ai/Resources/book.html) | A free book (supplement for the below course) designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. |
 | [Practical Deep Learning](https://course.fast.ai/) | A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.|
 | [Learn Machine Learning](https://www.freecodecamp.org/news/free-machine-learning-course-10-hourse/) | A free 10-hour machine learning course for beginners on the freeCodeCamp.org YouTube channel. |
