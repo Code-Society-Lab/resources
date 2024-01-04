@@ -58,16 +58,19 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 
 <br>
 
-# Data Structure & Algorithm
-
+# Computer Science
+## Data Structure
 | Name        | Description |
 | ----------- | ----------- |
 | [Think Data Structure using Java](https://greenteapress.com/wp/think-data-structures/) | Learn Data Structure concepts such as Array, LinkeList, HasMap, etc using Java. |
 | [Open Data Structure (available in Java, C++, and Pseudocode)](https://opendatastructures.org/) | Open Data Structures covers the implementation and analysis of data structures for sequences (lists), queues, priority queues, unordered dictionaries, ordered dictionaries, and graphs. |
+
+## Algorithms
+| Name        | Description |
+| ----------- | ----------- |
 | [Algorithms using Pseudocode](https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf) | The textbook is based on lecture notes created for algorithms classes at the University of Illinois, stemming from a major revision in 2016 to adapt to changes in the undergraduate theory curriculum, particularly emphasizing fundamental content for the new required junior-level theory course. |
 
-# Programming Patterns and Design
-
+## Programming Patterns and Design
 | Name        | Description |
 | ----------- | ----------- |
 | [Game Programming Patterns](https://gameprogrammingpatterns.com/contents.html) | Using Games as a reference point, this ebook covers tons of useful programming patterns |
@@ -79,42 +82,47 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Model-View-Controller](https://developer.mozilla.org/en-US/docs/Glossary/MVC) | Explanation of the Model-View-Controller (MVC) architecture |
 <br>
 
-# Language Development
-
-## Interpreters
+# Development
+## Language Development
+### Interpreters
 
 | Name        | Description |
 | ----------- | ----------- |
 | [Crafting Interpreters](https://craftinginterpreters.com/contents.html) | A deep dive into writing tree walking and bytecode interpreters |
 | [Make a Lisp (MAL)](https://github.com/kanaka/mal) | A step-by-step tutorial into making a list processing interpreter |
 
-<br> 
-
-# Development Tools
-
+## Development Tools
 | Name | Description |
 | ---- | ----------- |
 | [Git](https://git-scm.com/) | Distributed version control system |
 | [Github for Beginner](https://docs.github.com/en/get-started) | Github for Getting Started Guide
 | [Git Tutorials](http://atlassian.com/git/tutorials) | Free open source site for learning Git basics and advanced patterns |
 
-# Web development
+## Embedded Development
+| Name | Description |
+| ---- | ----------- |
+| [Embedded Systems Security](https://embeddedsecurity.io) | EmbeddedSecurity.io provide a beginners resource on embedded systems security |
+
+## Web development
 | Name | Description |
 | ---- | ----------- |
 | [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
 | [REST API Best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/) | Best practices for REST API design |
 
-# Databases
+<br>
+
+# Other Resources
+## Databases
 | Name | Description |
 | ---- | ----------- |
 | [SQL Bolt](http://sqlbolt.com) | Free open source site towards learning SQL |
 
-# DevOps / Infrastructure
+## DevOps / Infrastructure
 | Name | Description |
 | ---- | ----------- |
 | [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high-level courses towards DevOps that you can enroll to |
 
-# Machine Learning / Deep Learning / Artificial Intelligence
+## Machine Learning / Deep Learning / Artificial Intelligence
 | Name | Description |
 | ---- | ----------- |
 | [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
