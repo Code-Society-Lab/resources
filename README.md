@@ -17,9 +17,15 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | ----------- | ----------- |
 | [The Netwide Assembler (NASM)](https://www.tutorialspoint.com/assembly_programming/) | Tutorial to learn NASM Assembly Language |
 | [Learn NASM](https://www.nasm.us/doc/) | This manual documents NASM, the Netwide Assembler: an assembler targeting the Intel x86 series of processors, with a portable source.|
+| [ARM Assembly](https://armasm.com) | This resource provides exercises and lessons to introduce ARM assembly, covering key concepts and practical applications for both bare metal programming and interfacing with Linux systems. |
+| [Azeria ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/) | This ARM assembly basics tutorial series serves as a primer for ARM exploit development, covering topics like data types, registers, instruction sets, memory operations, branching, and functions, focusing on ARM 32-bit architecture and examples compiled on ARMv6. |
+
+## C
+| Name        | Description |
+| ----------- | ----------- |
+| [C by example](https://www.cbyexample.com) | This guide offers a user-friendly exploration of C and C++, highlighting their features and key differences in a progressive format, serving as an introduction or refresher without substituting for in-depth study.|
 
 ## C++
-
 | Name        | Description |
 | ----------- | ----------- |
 | [Learn C++](https://www.learn-cpp.org/) | An easy to follow guide to starting off in C++ |
@@ -27,8 +33,12 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [CPP Reference](https://en.cppreference.com/w/) | Helpful reference material for the C++ and its standard library |
 | [Modern C++](https://github.com/changkun/modern-cpp-tutorial) | The purpose of this book is to offer a quick start for modern C++. Of course, advanced readers can also use this book to review and examine themselves on modern C++. |
 
-## Python
+## Golang
+| Name        | Description |
+| ----------- | ----------- |
+| [Go By Example](https://gobyexample.com) | Explore Go, a language for fast, reliable software, through official documentation and Go by Example's hands-on programs. |
 
+## Python
 | Name        | Description |
 | ----------- | ----------- |
 | [Python](https://www.python.org/) | Python official website
@@ -38,7 +48,6 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Python Tutorial](https://www.pythontutorial.net) | Free open source site towards learning Python |
 
 ## Javascript
-
 | Name        | Description |
 | ----------- | ----------- |
 | [Learn Javascript Online](http://learnjavascript.online) | Free open-source site for learning modern Javascript through lessons and practical methods |
@@ -59,6 +68,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 <br>
 
 # Computer Science
+
 ## Data Structure
 | Name        | Description |
 | ----------- | ----------- |
@@ -83,9 +93,8 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 <br>
 
 # Development
-## Language Development
-### Interpreters
 
+### Interpreters
 | Name        | Description |
 | ----------- | ----------- |
 | [Crafting Interpreters](https://craftinginterpreters.com/contents.html) | A deep dive into writing tree walking and bytecode interpreters |
@@ -116,6 +125,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | Name | Description |
 | ---- | ----------- |
 | [SQL Bolt](http://sqlbolt.com) | Free open source site towards learning SQL |
+| [PostgreSQL](https://www.postgresql.org) | The World's Most Advanced Open Source Relational Database. |
 
 ## DevOps / Infrastructure
 | Name | Description |
