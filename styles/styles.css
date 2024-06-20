@@ -1,0 +1,71 @@
+:root {
+  /* Backgrounds */
+  --background-color-primary: #F4C308;
+  --background-color-secondary: #FFFFFF;
+  --background-color-dark: #000000;
+
+  /* Text color */
+  --text-color-primary: #000000;
+  --text-color-gaming: #FFFFFF;
+}
+
+/* Boostrap overrides  */
+.bg-primary {
+  background-color: var(--background-color-primary) !important;
+  color: var(--text-color-primary) !important;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+#content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+
+  overflow-x: auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #004080;
+}
+
+a {
+  color: #004080;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
