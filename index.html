@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="author" content="Astra :)">
+  <meta name="title" content="The official Code Society Resources Library">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/ui/9.6.2/firebase-ui-auth.js"></script>
+  <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/9.6.2/firebase-ui-auth.css" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/png" href="images/code_society_round.png">
+
+  <!-- jQuery and DataTables -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
+  <!-- Markdown Parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <title>Code Society Resources Library</title>
+</head>
+
+<body class="vh-100">
+  <section id="header" class="bg-primary">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col p-2">
+            <a href="https://github.com/Code-Society-Lab">
+              <img src="images/github.svg" height="40" width="40">
+            </a>
+          </div>
+          <div class="col p-2">
+            <a href="https://discord.gg/FzgwHD7Am3">
+              <img src="images/discord.svg" height="40" width="40">
+            </a>
+          </div>
+          <div class="col p-2">
+            <a href="https://codesociety.xyz">
+              <div class="logo mx-auto rounded-circle">
+                <img src="images/code_society.svg" height="40" width="40"
+                  style="background-color: black; border-radius: 70%;">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="content">Loading Library...</div>
+    <script>
+      async function fetchReadme() {
+        const url = 'https://raw.githubusercontent.com/Code-Society-Lab/resources/main/README.md';
+        try {
+          const response = await fetch(url);
+          if (response.ok) {
+            const markdown = await response.text();
+            const filteredMarkdown = markdown.replace(/<br\s*\/?>/gi, '');
+            const htmlContent = marked.parse(filteredMarkdown);
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = htmlContent;
+
+            // Find all headers and tables
+            const headersAndTables = Array.from(tempDiv.querySelectorAll('h1, h2, h3, h4, h5, table'));
+            const headerTablePairs = [];
+            let currentHeader = null;
+
+            headersAndTables.forEach(element => {
+              if (element.tagName.match(/^H[2-6]$/)) {
+                currentHeader = element.innerText;
+              } else if (element.tagName === 'TABLE' && currentHeader) {
+                headerTablePairs.push({ header: currentHeader, table: element });
+                currentHeader = null;
+              }
+            });
+
+            if (headerTablePairs.length > 0) {
+              const mergedTable = mergeTables(headerTablePairs);
+              document.getElementById('content').innerHTML = mergedTable.outerHTML;
+              initializeDataTables();
+            } else {
+              document.getElementById('content').innerText = 'No tables found in README file.';
+            }
+          } else {
+            document.getElementById('content').innerText = `Failed to load README file. HTTP status: ${response.status}`;
+          }
+        } catch (error) {
+          document.getElementById('content').innerText = `Error fetching README file: ${error.message}`;
+        }
+      }
+
+      function mergeTables(headerTablePairs) {
+        const mergedTable = document.createElement('table');
+        const mergedTbody = document.createElement('tbody');
+        mergedTable.appendChild(mergedTbody);
+        let headerAdded = false;
+
+        headerTablePairs.forEach(pair => {
+          const rows = pair.table.querySelectorAll('tr');
+          const headerText = pair.header;
+
+          rows.forEach((row, rowIndex) => {
+            const newRow = row.cloneNode(true);
+            if (rowIndex === 0 && !headerAdded) {
+              const newHeaderRow = document.createElement('tr');
+              newRow.childNodes.forEach(cell => {
+                newHeaderRow.appendChild(cell.cloneNode(true));
+              });
+              const newHeaderCell = document.createElement('th');
+              newHeaderCell.innerText = 'Category';
+              newHeaderRow.appendChild(newHeaderCell);
+              const thead = document.createElement('thead');
+              thead.appendChild(newHeaderRow);
+              mergedTable.appendChild(thead);
+              headerAdded = true;
+            } else if (rowIndex > 0) {
+              const newCell = document.createElement('td');
+              newCell.innerText = headerText;
+              newRow.appendChild(newCell);
+              mergedTbody.appendChild(newRow);
+            }
+          });
+        });
+
+        return mergedTable;
+      }
+
+      function initializeDataTables() {
+        $(document).ready(function () {
+          $('table').DataTable(
+            {
+              "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+              "lengthChange": true,
+              "language": {
+                "sSearch": "🔍",
+                "searchPlaceholder": "Search",
+                "lengthMenu": "Display _MENU_ records per page",
+                "zeroRecords": "No matching records found",
+                "info": "Showing _START_ to _END_ of _TOTAL_ records",
+                "infoEmpty": "No records available",
+                "infoFiltered": "(filtered from _MAX_ total records)"
+              },
+              "info": true,
+              "order": [0, 'asc'],
+              "ordering": true,
+              "autoWidth": true,
+              "responsive": true,
+              "paging": true,
+            }
+          );
+        });
+      }
+
+      fetchReadme();
+    </script>
+  </section>
+</body>
+
+</html>
