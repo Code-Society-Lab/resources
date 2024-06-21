@@ -37,6 +37,14 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col p-2">
+            <a href="https://codesociety.xyz">
+              <div class="logo mx-auto rounded-circle">
+                <img src="images/code_society.svg" height="40" width="40"
+                  style="background-color: black; border-radius: 70%; padding: 5px;">
+              </div>
+            </a>
+          </div>
+          <div class="col p-2">
             <a href="https://github.com/Code-Society-Lab">
               <img src="images/github.svg" height="40" width="40">
             </a>
@@ -44,14 +52,6 @@
           <div class="col p-2">
             <a href="https://discord.gg/FzgwHD7Am3">
               <img src="images/discord.svg" height="40" width="40">
-            </a>
-          </div>
-          <div class="col p-2">
-            <a href="https://codesociety.xyz">
-              <div class="logo mx-auto rounded-circle">
-                <img src="images/code_society.svg" height="40" width="40"
-                  style="background-color: black; border-radius: 70%;">
-              </div>
             </a>
           </div>
         </div>
@@ -153,7 +153,7 @@
       }
 
       function displayContent(content) {
-        document.getElementById('content').innerHTML = `<div class="table-responsive">${content}</div>`;
+        document.getElementById('content').innerHTML = `<div>${content}</div>`;
       }
 
       function initializeDataTables() {
@@ -161,6 +161,7 @@
           $('table').DataTable({
             "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
             "lengthChange": true,
+            "pageLength": 10,
             "language": {
               "sSearch": "🔍",
               "searchPlaceholder": "Search",
@@ -176,6 +177,12 @@
             "autoWidth": false,
             "responsive": true,
             "paging": true,
+            "columnDefs": [
+              {
+                "targets": [0, 2],
+                "responsivePriority": 1
+              }
+            ]
           });
         });
       }
