@@ -156,31 +156,29 @@
       }
 
       function initializeDataTables() {
-        $(document).ready(function () {
-          $('table').DataTable({
-            "lengthChange": false,
-            "pageLength": 25,
-            "language": {
-              "sSearch": "",
-              "searchPlaceholder": "🔍 Search",
-              "zeroRecords": "No matching records found",
-              "info": "Showing _START_ to _END_ of _TOTAL_ records",
-              "infoEmpty": "No records available",
-              "infoFiltered": "(filtered from _MAX_ total records)",
-            },
-            "info": true,
-            "order": [2, 'asc'],
-            "ordering": true,
-            "autoWidth": false,
-            "responsive": true,
-            "paging": true,
-            "columnDefs": [
-              {
-                "targets": [0, 2],
-                "responsivePriority": 1
-              }
-            ]
-          });
+        $('table').DataTable({
+          "lengthChange": false,
+          "pageLength": 25,
+          "language": {
+            "sSearch": "",
+            "searchPlaceholder": "🔍 Search",
+            "zeroRecords": "No matching records found",
+            "info": "Showing _START_ to _END_ of _TOTAL_ records",
+            "infoEmpty": "No records available",
+            "infoFiltered": "(filtered from _MAX_ total records)",
+          },
+          "info": true,
+          "order": [2, 'asc'],
+          "ordering": true,
+          "autoWidth": false,
+          "responsive": true,
+          "paging": true,
+          "columnDefs": [
+            {
+              "targets": [0, 2],
+              "responsivePriority": 1
+            }
+          ]
         });
       }
 
