@@ -28,7 +28,7 @@ section {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 90%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-bottom: 20px;
 
   overflow-x: auto;
 }
@@ -51,7 +51,6 @@ a:hover {
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
 }
 
 table,
