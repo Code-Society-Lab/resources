@@ -9,6 +9,11 @@
   --text-color-gaming: #FFFFFF;
 }
 
+html,
+body {
+  height: 100%;
+} 
+
 /* Boostrap overrides  */
 .bg-primary {
   background-color: var(--background-color-primary) !important;
@@ -67,6 +72,10 @@ td {
 
 th {
   background-color: #f2f2f2;
+}
+
+.logo {
+  background-color: #000;
 }
 
 @media (max-width: 768px) {
