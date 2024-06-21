@@ -44,7 +44,7 @@
             </a>
           </div>
           <div class="col p-2">
-            <a href="https://github.com/Code-Society-Lab">
+            <a href="https://github.com/Code-Society-Lab/resources">
               <img src="images/github.svg" height="40" width="40">
             </a>
           </div>
@@ -59,7 +59,7 @@
 
     <div id="content">Loading Library...</div>
     <script>
-      async function fetchReadme() {
+      async function main() {
         const url = 'https://raw.githubusercontent.com/Code-Society-Lab/resources/main/README.md';
         try {
           const markdown          = await fetchMarkdown(url);
@@ -152,26 +152,24 @@
       }
 
       function displayContent(content) {
-        document.getElementById('content').innerHTML = `<div>${content}</div>`;
+        document.getElementById('content').innerHTML = `<div class="display">${content}</div>`;
       }
 
       function initializeDataTables() {
         $(document).ready(function () {
           $('table').DataTable({
-            "lengthMenu": [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
-            "lengthChange": true,
-            "pageLength": 10,
+            "lengthChange": false,
+            "pageLength": 25,
             "language": {
-              "sSearch": "🔍",
-              "searchPlaceholder": "Search",
-              "lengthMenu": "Display _MENU_ records per page",
+              "sSearch": "",
+              "searchPlaceholder": "🔍 Search",
               "zeroRecords": "No matching records found",
               "info": "Showing _START_ to _END_ of _TOTAL_ records",
               "infoEmpty": "No records available",
               "infoFiltered": "(filtered from _MAX_ total records)",
             },
             "info": true,
-            "order": [0, 'asc'],
+            "order": [2, 'asc'],
             "ordering": true,
             "autoWidth": false,
             "responsive": true,
@@ -186,7 +184,7 @@
         });
       }
 
-      fetchReadme();
+      main();
     </script>
   </section>
 </body>
