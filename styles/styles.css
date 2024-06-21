@@ -69,3 +69,32 @@ td {
 th {
   background-color: #f2f2f2;
 }
+
+@media (max-width: 768px) {
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0.25rem 0.5rem;
+    margin: 0.1rem;
+    font-size: 0.75rem;
+    border-radius: 0.2rem;
+  }
+
+  .dataTables_wrapper .dataTables_info {
+    font-size: 0.85rem;
+  }
+
+  .dataTables_wrapper .dataTables_filter input {
+    font-size: 0.85rem;
+  }
+
+  .dataTables_wrapper .dataTables_length select {
+    font-size: 0.85rem;
+  }
+
+  .dataTables_wrapper .dataTables_display {
+    font-size: 0.85rem;
+  }
+
+  .dataTables_wrapper .dataTables_length {
+    font-size: 0.95rem;
+  }
+}
