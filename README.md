@@ -58,6 +58,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Elixir](https://elixir-lang.org/) | Elixir official website |
 | [Elixir School](https://elixirschool.com/) | Good starting point to learn and master Elixir |
 | [Unofficial Style guide](https://github.com/christopheradams/elixir_style_guide) | Unofficial Elixir style guide |
+| [Code Smell in Elixir](https://github.com/lucasvegi/Elixir-Code-Smells/blob/main/etc/2023-emse-code-smells-elixir.pdf) | Understanding code smells in elixir functional language. |
 
 ### Libraries and Frameworks
 | Name | Description |
