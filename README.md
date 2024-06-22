@@ -1,6 +1,6 @@
 # Resources
 
-A collection of resources built by members of the Code Society, now accessible as a website for a better experience.
+A collection of resources built by members of the [Code Society](https://codesociety.xyz/), now accessible as a [website](https://resources.codesociety.xyz/) for a better experience.
 
 ## Add an item to the list
 To add an item to the list, follow this [guide](https://github.com/Code-Society-Lab/resources/blob/main/CONTRIBUTING.md) 
