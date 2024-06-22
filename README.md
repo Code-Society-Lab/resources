@@ -1,6 +1,6 @@
 # Resources
 
-A collection of resources built by members of the [Code Society](https://codesociety.xyz/).
+A collection of resources built by members of the Code Society, now accessible as a website for a better experience.
 
 ## Add an item to the list
 To add an item to the list, follow this [guide](https://github.com/Code-Society-Lab/resources/blob/main/CONTRIBUTING.md) 
@@ -24,6 +24,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | Name        | Description |
 | ----------- | ----------- |
 | [C by example](https://www.cbyexample.com) | This guide offers a user-friendly exploration of C and C++, highlighting their features and key differences in a progressive format, serving as an introduction or refresher without substituting for in-depth study.|
+| [C Programming A Modern Approach](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by/mode/1up) | A comprehensive and accessible guide that blends theory with practical examples to teach foundational concepts and advanced techniques in the C programming language. |
 
 ## C++
 | Name        | Description |
@@ -58,7 +59,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Elixir](https://elixir-lang.org/) | Elixir official website |
 | [Elixir School](https://elixirschool.com/) | Good starting point to learn and master Elixir |
 | [Unofficial Style guide](https://github.com/christopheradams/elixir_style_guide) | Unofficial Elixir style guide |
-| [Code Smell in Elixir](https://github.com/lucasvegi/Elixir-Code-Smells/blob/main/etc/2023-emse-code-smells-elixir.pdf) | Understanding code smells in elixir functional language. |
+| [Code Smells in Elixir](https://github.com/lucasvegi/Elixir-Code-Smells/blob/main/etc/2023-emse-code-smells-elixir.pdf) | Understanding code smells in elixir functional language. |
 
 ### Libraries and Frameworks
 | Name | Description |
@@ -80,6 +81,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | Name        | Description |
 | ----------- | ----------- |
 | [Algorithms using Pseudocode](https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf) | The textbook is based on lecture notes created for algorithms classes at the University of Illinois, stemming from a major revision in 2016 to adapt to changes in the undergraduate theory curriculum, particularly emphasizing fundamental content for the new required junior-level theory course. |
+| [Algorithms for Competitive Programming](https://cp-algorithms.com/) | Algorithms for competitive programming, covering topics like data structures, sorting, searching, dynamic programming, and graph algorithms. |
 
 ## Programming Patterns and Design
 | Name        | Description |
@@ -118,6 +120,14 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | ---- | ----------- |
 | [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
 | [REST API Best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/) | Best practices for REST API design |
+
+## Software Development
+| Name | Description |
+| ---- | ----------- |
+| [How to build good software](https://knowledge.csc.gov.sg/ethos-issue-21/how-to-build-good-software/) | A guide to building good software |
+| [Professional Software Development](https://mixmastamyk.bitbucket.io/pro_soft_dev/index.html) | Almost everything you’ll need to know to “hit the ground running.” |
+| [What every CS major should know](https://matt.might.net/articles/what-cs-majors-should-know/) | A guide to the basics of computer science |
+| [About Warning & Undo](https://alistapart.com/article/neveruseawarning/) | Never use a warning when you mean undo, a guide to error handling |
 
 <br>
 
