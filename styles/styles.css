@@ -12,7 +12,7 @@
 html,
 body {
   height: 100%;
-} 
+}
 
 .bg-primary {
   background-color: var(--background-color-primary) !important;
@@ -58,21 +58,25 @@ table {
   overflow: hidden;
 }
 
-th, 
+th,
 td {
   border: 1px solid #ddd;
   padding: 8px;
   text-align: left;
 }
+
 th:first-child {
   border-top-left-radius: 8px;
 }
+
 th:last-child {
   border-top-right-radius: 8px;
 }
+
 tr:last-child td:first-child {
   border-bottom-left-radius: 8px;
 }
+
 tr:last-child td:last-child {
   border-bottom-right-radius: 8px;
 }
@@ -125,7 +129,7 @@ th {
     width: 100%;
     max-width: 250px;
   }
-  
+
   .dataTables_wrapper .dataTables_paginate .paginate_button {
     padding: 0.25rem 0.5rem;
     margin: 0.1rem;
