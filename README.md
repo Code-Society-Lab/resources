@@ -11,7 +11,6 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Developer Roadmaps](https://roadmap.sh/) | Community-created roadmaps, articles, resources, and journeys to help you choose your path and grow in your career. |
 
 # Programming Languages
-
 ## Assembly
 | Name        | Description |
 | ----------- | ----------- |
@@ -19,12 +18,16 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Learn NASM](https://www.nasm.us/doc/) | This manual documents NASM, the Netwide Assembler: an assembler targeting the Intel x86 series of processors, with a portable source.|
 | [ARM Assembly](https://armasm.com) | This resource provides exercises and lessons to introduce ARM assembly, covering key concepts and practical applications for both bare metal programming and interfacing with Linux systems. |
 | [Azeria ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/) | This ARM assembly basics tutorial series serves as a primer for ARM exploit development, covering topics like data types, registers, instruction sets, memory operations, branching, and functions, focusing on ARM 32-bit architecture and examples compiled on ARMv6. |
+| [Assembly Language Programming with ARM](https://youtu.be/gfmRrPjnEw4) | Learn assembly language programming with ARMv7 in this beginner's course. |
+| [Inline ASM](https://gcc.gnu.org/onlinedocs/gcc/extensions-to-the-c-language-family/how-to-use-inline-assembly-language-in-c-code.html) | Introduction on how to use inline assembly language in C code. |
+
 
 ## C
 | Name        | Description |
 | ----------- | ----------- |
 | [C by example](https://www.cbyexample.com) | This guide offers a user-friendly exploration of C and C++, highlighting their features and key differences in a progressive format, serving as an introduction or refresher without substituting for an in-depth study.|
 | [C Programming A Modern Approach](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by/mode/1up) | A comprehensive and accessible guide that blends theory with practical examples to teach foundational concepts and advanced techniques in the C programming language. |
+| [Memory Allocation](https://samwho.dev/memory-allocation/) | An introduction to the basics of memory allocation. |
 
 ## C++
 | Name        | Description |
@@ -70,7 +73,6 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 <br>
 
 # Computer Science
-
 ## Data Structure
 | Name        | Description |
 | ----------- | ----------- |
@@ -90,13 +92,13 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Gang of Four (GoF) Design patterns](https://www.digitalocean.com/community/tutorials/gangs-of-four-gof-design-patterns) | Detailed description and examples of multiple design patterns |
 | [Clean Code](https://www.goodreads.com/book/show/3735293-clean-code) | Principales, patterns and practices of writing clean code |
 | [Clean Architecture](https://www.goodreads.com/book/show/18043011-clean-architecture) | Building clean software architecture  |
-| [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) | Learn software architecture principales |
-| [Software Architecture: The Hard Parts: Modern Tradeoff Analysis for Distributed Architectures](https://www.goodreads.com/book/show/58153482-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=2) | Learn in depth analysis of software architectures 
+| [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) | Learn software architecture principles |
+| [Software Architecture: The Hard Parts: Modern Tradeoff Analysis for Distributed Architectures](https://www.goodreads.com/book/show/58153482-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=2) | Learn in-depth analysis of software architectures 
 | [Model-View-Controller](https://developer.mozilla.org/en-US/docs/Glossary/MVC) | Explanation of the Model-View-Controller (MVC) architecture |
+
 <br>
 
 # Development
-
 ### Interpreters
 | Name        | Description |
 | ----------- | ----------- |
@@ -109,11 +111,12 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Git](https://git-scm.com/) | Distributed version control system |
 | [Github for Beginner](https://docs.github.com/en/get-started) | Github for Getting Started Guide
 | [Git Tutorials](http://atlassian.com/git/tutorials) | Free open source site for learning Git basics and advanced patterns |
-
+  
 ## Embedded Development
 | Name | Description |
 | ---- | ----------- |
 | [Embedded Systems Security](https://embeddedsecurity.io) | EmbeddedSecurity.io provide a beginners resource on embedded systems security |
+| [Putting the “You” in CPU](https://cpu.land/) | Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. |
 
 ## Web development
 | Name | Description |
@@ -128,6 +131,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Professional Software Development](https://mixmastamyk.bitbucket.io/pro_soft_dev/index.html) | Almost everything you’ll need to know to “hit the ground running.” |
 | [What every CS major should know](https://matt.might.net/articles/what-cs-majors-should-know/) | A guide to the basics of computer science |
 | [About Warning & Undo](https://alistapart.com/article/neveruseawarning/) | Never use a warning when you mean undo, a guide to error handling |
+| [Free Software, Free Society](https://www.gnu.org/doc/fsfs3-paperback.pdf) | A collection of writings essays by Richard Stallman. It introduces the subject of the history and development of the GNU Project and the Free Software Foundation, explains the author's philosophical position on the Free Software movement, and deals with the topics of software ethics, copyright, and patent laws, as well as business practices in application to computer software. |
 
 <br>
 
@@ -138,12 +142,12 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [SQL Bolt](http://sqlbolt.com) | Free open source site towards learning SQL |
 | [PostgreSQL](https://www.postgresql.org) | The World's Most Advanced Open Source Relational Database. |
 
-## DevOps / Infrastructure
+## DevOps
 | Name | Description |
 | ---- | ----------- |
 | [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high-level courses towards DevOps that you can enroll to |
 
-## Machine Learning / Deep Learning / Artificial Intelligence
+## ML / DL / AI
 | Name | Description |
 | ---- | ----------- |
 | [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
