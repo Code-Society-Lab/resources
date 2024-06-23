@@ -59,6 +59,30 @@
 
     <div id="content">Loading Library...</div>
     <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const notification = document.createElement('div');
+        notification.className = 'notification';
+        notification.innerHTML = `
+              <div class="arrow"></div>
+              <div class="message">
+                You can contribute to this library by submitting a pull request to the README file on GitHub.
+              </div>
+            `;
+
+        const githubIcon = document.querySelector('.col.p-2 a[href="https://github.com/Code-Society-Lab/resources"]');
+        if (githubIcon) {
+          githubIcon.parentNode.appendChild(notification);
+
+          setTimeout(function () {
+            notification.querySelector('.message').style.opacity = '1';
+          }, 100);
+
+          setTimeout(function () {
+            notification.remove();
+          }, 5000);
+        }
+      });
+
       async function main() {
         const url = 'https://raw.githubusercontent.com/Code-Society-Lab/resources/main/README.md';
         try {
