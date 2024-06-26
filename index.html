@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="author" content="Astra Dedman">
+  <meta name="title" content="The Code Society Resources Library">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="icon" type="image/png" href="images/code_society_round.png">
+
+  <!-- jQuery and DataTables -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+
+  <!-- Markdown Parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  
+  <title>Code Society Resources Library</title>
+</head>
+
+<body>
+  <section id="header" class="page-background">
+    <nav class="navbar">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col p-2">
+            <a href="https://codesociety.xyz">
+              <div class="logo mx-auto rounded-circle">
+                <img src="images/code_society.svg" height="40" width="40" style="padding: 5px;">
+              </div>
+            </a>
+          </div>
+          <div class="col p-2">
+            <a href="https://github.com/Code-Society-Lab/resources">
+              <img src="images/github.svg" height="40" width="40">
+            </a>
+          </div>
+          <div class="col p-2">
+            <a href="https://discord.gg/FzgwHD7Am3">
+              <img src="images/discord.svg" height="40" width="40">
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="content">Loading Library...</div>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const notification = document.createElement('div');
+        notification.className = 'notification';
+        notification.innerHTML = `
+              <div class="arrow"></div>
+              <div class="message">
+                Contribute to this library.
+              </div>
+            `;
+
+        const githubIcon = document.querySelector('.col.p-2 a[href="https://github.com/Code-Society-Lab/resources"]');
+        if (githubIcon) {
+          githubIcon.parentNode.appendChild(notification);
+
+          setTimeout(function () {
+            notification.querySelector('.message').style.opacity = '1';
+          }, 100);
+
+          setTimeout(function () {
+            notification.remove();
+          }, 5000);
+        }
+      });
+
+      async function main() {
+        const url = 'https://raw.githubusercontent.com/Code-Society-Lab/resources/main/README.md';
+        try {
+          const markdown          = await fetchMarkdown(url);
+          const filteredMarkdown  = filterMarkdown(markdown);
+          const htmlContent       = parseMarkdown(filteredMarkdown);
+          const headerTablePairs  = extractHeadersAndTables(htmlContent);
+
+          if (headerTablePairs.length > 0) {
+            const mergedTable = mergeTables(headerTablePairs);
+            displayContent(mergedTable.outerHTML);
+            initializeDataTables();
+          } else {
+            displayContent('No tables found in README file.');
+          }
+        } catch (error) {
+          displayContent(`Error fetching README file: ${error.message}`);
+        }
+      }
+
+      async function fetchMarkdown(url) {
+        const response = await fetch(url);
+        if (!response.ok) {
+          throw new Error(`Failed to load README file. HTTP status: ${response.status}`);
+        }
+        return response.text();
+      }
+
+      function filterMarkdown(markdown) {
+        return markdown.replace(/<br\s*\/?>/gi, '');
+      }
+
+      function parseMarkdown(filteredMarkdown) {
+        const htmlContent = marked.parse(filteredMarkdown);
+        const tempDiv     = document.createElement('div');
+        tempDiv.innerHTML = htmlContent;
+        return tempDiv;
+      }
+
+      function extractHeadersAndTables(tempDiv) {
+        const headersAndTables = Array.from(tempDiv.querySelectorAll('h1, h2, h3, h4, h5, table'));
+        const headerTablePairs = [];
+        let currentHeader      = null;
+
+        headersAndTables.forEach(element => {
+          if (element.tagName.match(/^H[2-6]$/)) {
+            currentHeader = element.innerText;
+          } else if (element.tagName === 'TABLE' && currentHeader) {
+            headerTablePairs.push({ header: currentHeader, table: element });
+            currentHeader = null;
+          }
+        });
+
+        return headerTablePairs;
+      }
+
+      function mergeTables(headerTablePairs) {
+        const mergedTable = document.createElement('table');
+        const mergedTbody = document.createElement('tbody');
+        mergedTable.appendChild(mergedTbody);
+        let headerAdded = false;
+
+        headerTablePairs.forEach(pair => {
+          const rows       = pair.table.querySelectorAll('tr');
+          const headerText = pair.header;
+
+          rows.forEach((row, rowIndex) => {
+            const newRow = row.cloneNode(true);
+            if (rowIndex === 0 && !headerAdded) {
+              const newHeaderRow = document.createElement('tr');
+              newRow.childNodes.forEach(cell => {
+                newHeaderRow.appendChild(cell.cloneNode(true));
+              });
+              const newHeaderCell = document.createElement('th');
+              newHeaderCell.innerText = 'Category';
+              newHeaderRow.appendChild(newHeaderCell);
+              const thead = document.createElement('thead');
+              thead.appendChild(newHeaderRow);
+              mergedTable.appendChild(thead);
+              headerAdded = true;
+            } else if (rowIndex > 0) {
+              const newCell = document.createElement('td');
+              newCell.innerText = headerText;
+              newRow.appendChild(newCell);
+              mergedTbody.appendChild(newRow);
+            }
+          });
+        });
+
+        return mergedTable;
+      }
+
+      function displayContent(content) {
+        document.getElementById('content').innerHTML = `<div>${content}</div>`;
+      }
+
+      function initializeDataTables() {
+        $('table').DataTable(
+          {
+            "lengthChange": false,
+            "pageLength": 25,
+            "language": {
+              "sSearch": "",
+              "searchPlaceholder": "🔍 Search",
+              "zeroRecords": "No matching records found",
+              "info": "Showing _START_ to _END_ of _TOTAL_ records",
+              "infoEmpty": "No records available",
+              "infoFiltered": "(filtered from _MAX_ total records)",
+            },
+            "info": true,
+            "order": [2, 'asc'],
+            "ordering": true,
+            "autoWidth": false,
+            "responsive": true,
+            "paging": true,
+            "columnDefs": [
+              {
+                "targets": [0, 2],
+                "responsivePriority": 1
+              }
+            ],
+          }
+        );
+      }
+
+      main();
+    </script>
+  </section>
+</body>
+
+</html>
