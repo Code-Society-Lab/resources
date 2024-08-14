@@ -9,6 +9,8 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | Name | Description |
 | ---- | ----------- |
 | [Developer Roadmaps](https://roadmap.sh/) | Community-created roadmaps, articles, resources, and journeys to help you choose your path and grow in your career. |
+| [Embedded Engineering RoadMap](https://github.com/m3y54m/Embedded-Engineering-Roadmap) | This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer/Developer, as well as assist current practitioners in expanding their skills. |
+| [Open-Source RoadMap](https://codeberg.org/alicia/git-into-open-source) | Tools and resources to help you get started with open source. |
 
 # Programming Languages
 ## Assembly
@@ -20,6 +22,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Azeria ARM Assembly](https://azeria-labs.com/writing-arm-assembly-part-1/) | This ARM assembly basics tutorial series serves as a primer for ARM exploit development, covering topics like data types, registers, instruction sets, memory operations, branching, and functions, focusing on ARM 32-bit architecture and examples compiled on ARMv6. |
 | [Assembly Language Programming with ARM](https://youtu.be/gfmRrPjnEw4) | Learn assembly language programming with ARMv7 in this beginner's course. |
 | [Inline ASM](https://gcc.gnu.org/onlinedocs/gcc/extensions-to-the-c-language-family/how-to-use-inline-assembly-language-in-c-code.html) | Introduction on how to use inline assembly language in C code. |
+| [ARM Assembly instruction Sets](https://heyrick.eu/assembler/qfinder.html) | A completely description of the ARM ASM instruction set. |
 
 
 ## C
@@ -117,6 +120,8 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | ---- | ----------- |
 | [Embedded Systems Security](https://embeddedsecurity.io) | EmbeddedSecurity.io provide a beginners resource on embedded systems security |
 | [Putting the “You” in CPU](https://cpu.land/) | Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. |
+| [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/) | This document introduces several concepts that can be used in bare-metal development as well as shows how they can be implemented using features of the latest (at the time of writing) C++11 standard. |
+| [Bare-metal C programming on ARM](https://github.com/umanovskis/baremetal-arm) | This ebook is aimed at people who have an interest in low-level programming, and in seeing how to build a system from the ground up. Topics covered include system startup, driver development, and low-level memory management.|
 
 ## Web development
 | Name | Description |
@@ -136,11 +141,20 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 <br>
 
 # Other Resources
+## Operating Systems
+| Name | Description |
+| ---- | ----------- |
+| [RTOS](https://barrgroup.com/blog-subject-tags/rtos) | How-to articles about using real-time operating systems in embedded systems. |
+| [ZephyrOS](https://docs.zephyrproject.org/latest/introduction/index.html) | The Zephyr OS is based on a small-footprint kernel designed for use on resource-constrained and embedded systems: from simple embedded environmental sensors and LED wearables to sophisticated embedded controllers, smart watches, and IoT wireless applications. |
+| [FreeRTOS](http://www.freertos.org/) | A free-use Real Time Operating system widely used and supports many platforms. |
+| [FreeRTOS on STM32](https://embeddedthere.com/getting-started-with-freertos-in-stm32-example-code-included/) | Getting started with FreeRTOS in STM32 with Code Examples. |
+
 ## Databases
 | Name | Description |
 | ---- | ----------- |
 | [SQL Bolt](http://sqlbolt.com) | Free open source site towards learning SQL |
 | [PostgreSQL](https://www.postgresql.org) | The World's Most Advanced Open Source Relational Database. |
+| [ITTIA Embedded SQL](https://docs.ittia.com/embedded-database-manual/index.html) | The ITTIA DB SQL™ documentation provides how-to guidance and reference information for embedded systems to stream, manage, and analyze data, with an emphasis on time series. This documentation is for software developers who seek to embed a silent database inside applications. |
 
 ## DevOps
 | Name | Description |
