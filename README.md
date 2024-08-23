@@ -11,6 +11,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Developer Roadmaps](https://roadmap.sh/) | Community-created roadmaps, articles, resources, and journeys to help you choose your path and grow in your career. |
 | [Embedded Engineering RoadMap](https://github.com/m3y54m/Embedded-Engineering-Roadmap) | This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer/Developer, as well as assist current practitioners in expanding their skills. |
 | [Open-Source RoadMap](https://codeberg.org/alicia/git-into-open-source) | Tools and resources to help you get started with open source. |
+| [What is Embedded Systems & RoadMap](https://youtu.be/KopbRShTp_Y) | This course is an hour-long presentation that dives into the details of 𝘄𝗵𝗮𝘁 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗶𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗿𝗼𝗮𝗱𝗺𝗮𝗽 𝘁𝗼 𝗴𝗼𝗶𝗻𝗴 𝗮𝗯𝗼𝘂𝘁 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁. The presentation is fast-paced and focused on how one can become an Embedded Systems Software Engineer. |
 
 # Programming Languages
 ## Assembly
@@ -122,6 +123,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Putting the “You” in CPU](https://cpu.land/) | Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. |
 | [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/) | This document introduces several concepts that can be used in bare-metal development as well as shows how they can be implemented using features of the latest (at the time of writing) C++11 standard. |
 | [Bare-metal C programming on ARM](https://github.com/umanovskis/baremetal-arm) | This ebook is aimed at people who have an interest in low-level programming, and in seeing how to build a system from the ground up. Topics covered include system startup, driver development, and low-level memory management.|
+| [Intro to ARM Cortex-M](https://engineers.inpyjama.com/learn/m101) | An introduction to ARM Cortex-M controllers, covering their key characteristics, advantages, and applications. Followed by a comprehensive overview of the programmers' model. |
 
 ## Web development
 | Name | Description |
