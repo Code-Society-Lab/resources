@@ -8,6 +8,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 ## Learning
 | Name | Description |
 | ---- | ----------- |
+| [Becoming a self-taught coder for free](https://www.zenoix.com/posts/become-a-self-taught-coder/) | Comprehensive guide on how to teach yourself programming for free|
 | [Developer Roadmaps](https://roadmap.sh/) | Community-created roadmaps, articles, resources, and journeys to help you choose your path and grow in your career. |
 | [Embedded Engineering RoadMap](https://github.com/m3y54m/Embedded-Engineering-Roadmap) | This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer/Developer, as well as assist current practitioners in expanding their skills. |
 | [Open-Source RoadMap](https://codeberg.org/alicia/git-into-open-source) | Tools and resources to help you get started with open source. |
