@@ -14,6 +14,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Open-Source RoadMap](https://codeberg.org/alicia/git-into-open-source) | Tools and resources to help you get started with open source. |
 | [What is Embedded Systems & RoadMap](https://youtu.be/KopbRShTp_Y) | This course is an hour-long presentation that dives into the details of 𝘄𝗵𝗮𝘁 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗶𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗿𝗼𝗮𝗱𝗺𝗮𝗽 𝘁𝗼 𝗴𝗼𝗶𝗻𝗴 𝗮𝗯𝗼𝘂𝘁 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁. The presentation is fast-paced and focused on how one can become an Embedded Systems Software Engineer. |
 
+
 # Programming Languages
 ## Assembly
 | Name        | Description |
@@ -26,13 +27,12 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Inline ASM](https://gcc.gnu.org/onlinedocs/gcc/extensions-to-the-c-language-family/how-to-use-inline-assembly-language-in-c-code.html) | Introduction on how to use inline assembly language in C code. |
 | [ARM Assembly instruction Sets](https://heyrick.eu/assembler/qfinder.html) | A completely description of the ARM ASM instruction set. |
 
-
 ## C
 | Name        | Description |
 | ----------- | ----------- |
 | [C by example](https://www.cbyexample.com) | This guide offers a user-friendly exploration of C and C++, highlighting their features and key differences in a progressive format, serving as an introduction or refresher without substituting for an in-depth study.|
 | [C Programming A Modern Approach](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by/mode/1up) | A comprehensive and accessible guide that blends theory with practical examples to teach foundational concepts and advanced techniques in the C programming language. |
-| [Memory Allocation](https://samwho.dev/memory-allocation/) | An introduction to the basics of memory allocation. |
+| [Memory Allocation](https://samwho.dev/memory-allocation/) | An introduction to the basics of memory allocation. | 
 
 ## C++
 | Name        | Description |
@@ -56,6 +56,12 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Virtual environment](https://virtualenv.pypa.io/en/latest/index.html) | Virtual environment
 | [Python Tutorial](https://www.pythontutorial.net) | Free open source site towards learning Python |
 
+## Rust
+| Name | Description |
+| ---- | ----------- |
+| [Interactive Book to kearn Rust](https://rust-book.cs.brown.edu/) | Interactive book to learn about the Rust programming language. |
+| [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/) | Cookbook for Rust programmers, new and experienced, to learn about the Rust crate ecosystem. |
+
 ## Javascript
 | Name        | Description |
 | ----------- | ----------- |
@@ -75,7 +81,6 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Phoenix](https://www.phoenixframework.org/) | Full-Stack Web framework |
 | [Absinthe](https://hexdocs.pm/absinthe/overview.html) | GraphQL library |
 
-<br>
 
 # Computer Science
 ## Data Structure
@@ -89,6 +94,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | ----------- | ----------- |
 | [Algorithms using Pseudocode](https://jeffe.cs.illinois.edu/teaching/algorithms/book/Algorithms-JeffE.pdf) | The textbook is based on lecture notes created for algorithms classes at the University of Illinois, stemming from a major revision in 2016 to adapt to changes in the undergraduate theory curriculum, particularly emphasizing fundamental content for the new required junior-level theory course. |
 | [Algorithms for Competitive Programming](https://cp-algorithms.com/) | Algorithms for competitive programming, covering topics like data structures, sorting, searching, dynamic programming, and graph algorithms. |
+| [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/) | “Algorithms for Modern Hardware” by Sergey Slotin is a high-performance computing book for performance engineers, algorithm researchers, and advanced computer science students. | 
 
 ## Programming Patterns and Design
 | Name        | Description |
@@ -100,8 +106,11 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) | Learn software architecture principles |
 | [Software Architecture: The Hard Parts: Modern Tradeoff Analysis for Distributed Architectures](https://www.goodreads.com/book/show/58153482-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=2) | Learn in-depth analysis of software architectures 
 | [Model-View-Controller](https://developer.mozilla.org/en-US/docs/Glossary/MVC) | Explanation of the Model-View-Controller (MVC) architecture |
+| [The Non-Designer's Design Book](https://misalonweb.org/wp-content/uploads/2020/09/Non-Designers-Design-Book.pdf) | This book is written for all the people who need to design pages, but have no
+background or formal training in design. |
+| [Software Design Pattern](https://designpatternsmastery.com/) | DesignPatternsMastery offers a comprehensive collection of books on software design patterns for developers and architects. | 
+| [Pattern of Software](https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf) | The essays in this book originated as columns for the Journal of Object-Oriented Programming, modeled after Samuel Johnson’s The Rambler.|
 
-<br>
 
 # Development
 ### Interpreters
@@ -110,13 +119,19 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Crafting Interpreters](https://craftinginterpreters.com/contents.html) | A deep dive into writing tree walking and bytecode interpreters |
 | [Make a Lisp (MAL)](https://github.com/kanaka/mal) | A step-by-step tutorial into making a list processing interpreter |
 
+### Compilers
+| Name | Description |
+| ---- | ----------- |
+| [Basic of Compiler Design](https://hjemmesider.diku.dk/~torbenm/Basics/basics_lulu2.pdf) | An introduction to compiler design by Torben Ægidius Mogensen. |
+
 ## Development Tools
 | Name | Description |
 | ---- | ----------- |
 | [Git](https://git-scm.com/) | Distributed version control system |
 | [Github for Beginner](https://docs.github.com/en/get-started) | Github for Getting Started Guide
 | [Git Tutorials](http://atlassian.com/git/tutorials) | Free open source site for learning Git basics and advanced patterns |
-  
+| [Modern CMake](https://cliutils.gitlab.io/modern-cmake/README.html) | Modern CMake is a clean, powerful, and elegant solution to many build system problems, allowing developers to focus on coding rather than dealing with unmaintainable build files. |
+
 ## Embedded Development
 | Name | Description |
 | ---- | ----------- |
@@ -125,12 +140,14 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/) | This document introduces several concepts that can be used in bare-metal development as well as shows how they can be implemented using features of the latest (at the time of writing) C++11 standard. |
 | [Bare-metal C programming on ARM](https://github.com/umanovskis/baremetal-arm) | This ebook is aimed at people who have an interest in low-level programming, and in seeing how to build a system from the ground up. Topics covered include system startup, driver development, and low-level memory management.|
 | [Intro to ARM Cortex-M](https://engineers.inpyjama.com/learn/m101) | An introduction to ARM Cortex-M controllers, covering their key characteristics, advantages, and applications. Followed by a comprehensive overview of the programmers' model. |
+| [RTEMS](https://docs.rtems.org/docs/main/user/overview/index.html) | Document presents RTEMS features, installation, and example application building. |
 
 ## Web development
 | Name | Description |
 | ---- | ----------- |
 | [How to GraphQL](https://www.howtographql.com/) | Free open source tutorial to learn GraphQL |
 | [REST API Best practices](https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design/) | Best practices for REST API design |
+| [The Copenhagen Book](https://thecopenhagenbook.com/) | The Copenhagen Book is a free, open-source guide for implementing authentication in web applications. |
 
 ## Software Development
 | Name | Description |
@@ -140,8 +157,8 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [What every CS major should know](https://matt.might.net/articles/what-cs-majors-should-know/) | A guide to the basics of computer science |
 | [About Warning & Undo](https://alistapart.com/article/neveruseawarning/) | Never use a warning when you mean undo, a guide to error handling |
 | [Free Software, Free Society](https://www.gnu.org/doc/fsfs3-paperback.pdf) | A collection of writings essays by Richard Stallman. It introduces the subject of the history and development of the GNU Project and the Free Software Foundation, explains the author's philosophical position on the Free Software movement, and deals with the topics of software ethics, copyright, and patent laws, as well as business practices in application to computer software. |
+| [Element of Programming](https://www.elementsofprogramming.com/eop.pdf) | This book applies the deductive method to programming, presenting mathematical theories, algorithms, and theorems. It emphasizes the importance of precise code for computers and is intended for those seeking a deeper understanding of programming. |
 
-<br>
 
 # Other Resources
 ## Operating Systems
@@ -151,6 +168,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [ZephyrOS](https://docs.zephyrproject.org/latest/introduction/index.html) | The Zephyr OS is based on a small-footprint kernel designed for use on resource-constrained and embedded systems: from simple embedded environmental sensors and LED wearables to sophisticated embedded controllers, smart watches, and IoT wireless applications. |
 | [FreeRTOS](http://www.freertos.org/) | A free-use Real Time Operating system widely used and supports many platforms. |
 | [FreeRTOS on STM32](https://embeddedthere.com/getting-started-with-freertos-in-stm32-example-code-included/) | Getting started with FreeRTOS in STM32 with Code Examples. |
+| [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/) | The book is centered around three conceptual pieces that are fundamental to operating systems: virtualization, concurrency, and persistence. |
 
 ## Databases
 | Name | Description |
@@ -171,3 +189,11 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Deep Learning for Coders with Fastai and PyTorch](https://course.fast.ai/Resources/book.html) | A free book (supplement for the below course) designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. |
 | [Practical Deep Learning](https://course.fast.ai/) | A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.|
 | [Learn Machine Learning](https://www.freecodecamp.org/news/free-machine-learning-course-10-hourse/) | A free 10-hour machine learning course for beginners on the freeCodeCamp.org YouTube channel. |
+
+## Engineering
+| Name | Description |
+| ---- | ----------- |
+| [Shape Up](https://basecamp.com/shapeup/) | Shape Up will help you break free of “best practices” that aren’t really working, think deeper about the right problems, and start shipping meaningful projects your team can celebrate. |
+| [Build your Virtual Machine](https://www.jmeiners.com/lc3-vm/) | Tutorial on writing a virtual machine to run assembly language programs for a deeper understanding of computers and programming languages. |
+| [Probability for Computer Science](https://chrispiech.github.io/probabilityForComputerScientists/en/index.html) | Chris Piech wrote this book for Stanford’s CS109 course, Probability for Computer Scientists, originally designed by Mehran Sahami. |
+
