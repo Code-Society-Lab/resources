@@ -33,6 +33,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [C by example](https://www.cbyexample.com) | This guide offers a user-friendly exploration of C and C++, highlighting their features and key differences in a progressive format, serving as an introduction or refresher without substituting for an in-depth study.|
 | [C Programming A Modern Approach](https://archive.org/details/c-programming-a-modern-approach-2nd-ed-c-89-c-99-king-by/mode/1up) | A comprehensive and accessible guide that blends theory with practical examples to teach foundational concepts and advanced techniques in the C programming language. |
 | [Memory Allocation](https://samwho.dev/memory-allocation/) | An introduction to the basics of memory allocation. | 
+| [Modern C](https://inria.hal.science/hal-02383654) | The C programming language, widely used in modern devices, is often misunderstood despite its ubiquity. This book aims to improve knowledge of C by organizing content into levels based on familiarity, focusing on unique C concepts and practices. |
 
 ## C++
 | Name        | Description |
