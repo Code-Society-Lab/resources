@@ -11,9 +11,9 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Becoming a self-taught coder for free](https://www.zenoix.com/posts/become-a-self-taught-coder/) | Comprehensive guide on how to teach yourself programming for free|
 | [Developer Roadmaps](https://roadmap.sh/) | Community-created roadmaps, articles, resources, and journeys to help you choose your path and grow in your career. |
 | [Embedded Engineering RoadMap](https://github.com/m3y54m/Embedded-Engineering-Roadmap) | This roadmap is designed to help beginners aspiring to build a career as an Embedded Engineer/Developer, as well as assist current practitioners in expanding their skills. |
-| [Open-Source RoadMap](https://codeberg.org/alicia/git-into-open-source) | Tools and resources to help you get started with open source. |
-| [What is Embedded Systems & RoadMap](https://youtu.be/KopbRShTp_Y) | This course is an hour-long presentation that dives into the details of 𝘄𝗵𝗮𝘁 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗶𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗿𝗼𝗮𝗱𝗺𝗮𝗽 𝘁𝗼 𝗴𝗼𝗶𝗻𝗴 𝗮𝗯𝗼𝘂𝘁 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁. The presentation is fast-paced and focused on how one can become an Embedded Systems Software Engineer. |
-
+| [Open-Source Roadmap](https://codeberg.org/alicia/git-into-open-source) | Tools and resources to help you get started with open source. |
+| [What is Embedded Systems & Roadmap](https://youtu.be/KopbRShTp_Y) | This course is an hour-long presentation that dives into the details of 𝘄𝗵𝗮𝘁 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗘𝗺𝗯𝗲𝗱𝗱𝗲𝗱 𝗦𝘆𝘀𝘁𝗲𝗺𝘀 𝗶𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗿𝗼𝗮𝗱𝗺𝗮𝗽 𝘁𝗼 𝗴𝗼𝗶𝗻𝗴 𝗮𝗯𝗼𝘂𝘁 𝗹𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗶𝘁. The presentation is fast-paced and focused on how one can become an Embedded Systems Software Engineer. |
+| [Missing CS Semester](https://missing.csail.mit.edu/) | The Missing Semester of Your CS Education is a free, practical course from MIT that teaches essential command-line tools, scripting, debugging, and other real-world skills often overlooked in formal computer science curricula. |
 
 # Programming Languages
 ## Assembly
@@ -66,7 +66,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 ## Javascript
 | Name        | Description |
 | ----------- | ----------- |
-| [Learn Javascript Online](http://learnjavascript.online) | Free open-source site for learning modern Javascript through lessons and practical methods |
+| [Learn JavaScript Online](http://learnjavascript.online) | Free open-source site for learning modern JavaScript through lessons and practical methods |
 
 ## Elixir
 | Name | Description |
@@ -107,11 +107,17 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Fundamentals of Software Architecture: An Engineering Approach](https://www.goodreads.com/book/show/44144493-fundamentals-of-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=1) | Learn software architecture principles |
 | [Software Architecture: The Hard Parts: Modern Tradeoff Analysis for Distributed Architectures](https://www.goodreads.com/book/show/58153482-software-architecture?from_search=true&from_srp=true&qid=4tpz2i3aEC&rank=2) | Learn in-depth analysis of software architectures 
 | [Model-View-Controller](https://developer.mozilla.org/en-US/docs/Glossary/MVC) | Explanation of the Model-View-Controller (MVC) architecture |
-| [The Non-Designer's Design Book](https://misalonweb.org/wp-content/uploads/2020/09/Non-Designers-Design-Book.pdf) | This book is written for all the people who need to design pages, but have no
-background or formal training in design. |
+| [The Non-Designer's Design Book](https://misalonweb.org/wp-content/uploads/2020/09/Non-Designers-Design-Book.pdf) | This book is written for all the people who need to design pages, but have no background or formal training in design. |
 | [Software Design Pattern](https://designpatternsmastery.com/) | DesignPatternsMastery offers a comprehensive collection of books on software design patterns for developers and architects. | 
 | [Pattern of Software](https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf) | The essays in this book originated as columns for the Journal of Object-Oriented Programming, modeled after Samuel Johnson’s The Rambler.|
+| [Design Pattern](https://refactoring.guru/design-patterns) | Refactoring.Guru is a comprehensive resource that explains design patterns, refactoring techniques, and principles of clean code with clear examples and practical guidance for software developers. |
 
+## Cryptography / Security
+| Name        | Description |
+| ----------- | ----------- |
+| [SHA256Algorithm.com](https://sha256algorithm.com/) | A technical resource explaining the SHA-256 cryptographic hash algorithm, its mechanics, and applications in data security and blockchain technology. |
+| [Standford Cryptography I](https://www.coursera.org/learn/crypto) | Free online course from Stanford University covering the inner workings of cryptographic systems, secure communication, and real-world applications. |
+| [Cryptography Course by Dan Boneh](https://crypto.stanford.edu/~dabo/courses/OnlineCrypto/) | Free lectures and textbook for a comprehensive cryptography course, including security proofs and exercises. |
 
 # Development
 ### Interpreters
@@ -138,10 +144,10 @@ background or formal training in design. |
 | ---- | ----------- |
 | [Embedded Systems Security](https://embeddedsecurity.io) | EmbeddedSecurity.io provide a beginners resource on embedded systems security |
 | [Putting the “You” in CPU](https://cpu.land/) | Curious exactly what happens when you run a program on your computer? Read this article to learn how multiprocessing works, what system calls really are, how computers manage memory with hardware interrupts, and how Linux loads executables. |
-| [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/) | This document introduces several concepts that can be used in bare-metal development as well as shows how they can be implemented using features of the latest (at the time of writing) C++11 standard. |
-| [Bare-metal C programming on ARM](https://github.com/umanovskis/baremetal-arm) | This ebook is aimed at people who have an interest in low-level programming, and in seeing how to build a system from the ground up. Topics covered include system startup, driver development, and low-level memory management.|
+| [Practical Guide to Bare Metal C++](https://arobenko.github.io/bare_metal_cpp/) | This document introduces several concepts that can be used in bare-metal development, as well as shows how they can be implemented using features of the latest (at the time of writing) C++11 standard. |
+| [Bare-metal C programming on ARM](https://github.com/umanovskis/baremetal-arm) | This ebook is aimed at people who have an interest in low-level programming and in seeing how to build a system from the ground up. Topics covered include system startup, driver development, and low-level memory management.|
 | [Intro to ARM Cortex-M](https://engineers.inpyjama.com/learn/m101) | An introduction to ARM Cortex-M controllers, covering their key characteristics, advantages, and applications. Followed by a comprehensive overview of the programmers' model. |
-| [RTEMS](https://docs.rtems.org/docs/main/user/overview/index.html) | Document presents RTEMS features, installation, and example application building. |
+| [RTEMS](https://docs.rtems.org/docs/main/user/overview/index.html) | The document presents RTEMS features, installation, and example application building. |
 
 ## Web development
 | Name | Description |
@@ -159,6 +165,7 @@ background or formal training in design. |
 | [About Warning & Undo](https://alistapart.com/article/neveruseawarning/) | Never use a warning when you mean undo, a guide to error handling |
 | [Free Software, Free Society](https://www.gnu.org/doc/fsfs3-paperback.pdf) | A collection of writings essays by Richard Stallman. It introduces the subject of the history and development of the GNU Project and the Free Software Foundation, explains the author's philosophical position on the Free Software movement, and deals with the topics of software ethics, copyright, and patent laws, as well as business practices in application to computer software. |
 | [Element of Programming](https://www.elementsofprogramming.com/eop.pdf) | This book applies the deductive method to programming, presenting mathematical theories, algorithms, and theorems. It emphasizes the importance of precise code for computers and is intended for those seeking a deeper understanding of programming. |
+| [Coding and Comment Style](https://mitcommlab.mit.edu/broad/commkit/coding-and-comment-style/) | The MIT Communication Lab’s "Coding and Comment Style" page provides guidelines for writing clear, maintainable code by emphasizing thoughtful naming, structure, and context, and advises using comments only to add necessary context or explain non-obvious choices |
 
 
 # Other Resources
@@ -181,14 +188,14 @@ background or formal training in design. |
 ## DevOps
 | Name | Description |
 | ---- | ----------- |
-| [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high-level courses towards DevOps that you can enroll to |
+| [EDX Learn DevOps](http://edx.org/learn/devops) | A site where there's a curated list of high-level courses towards DevOps that you can enroll in |
 
 ## ML / DL / AI
 | Name | Description |
 | ---- | ----------- |
 | [Learn Deeplearning](https://www.deeplearningwizard.com/) | Free open source blog style tutorial on Deeplearning |
 | [Deep Learning for Coders with Fastai and PyTorch](https://course.fast.ai/Resources/book.html) | A free book (supplement for the below course) designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems. |
-| [Practical Deep Learning](https://course.fast.ai/) | A free course designed for people with some coding experience, who want to learn how to apply deep learning and machine learning to practical problems.|
+| [Practical Deep Learning](https://course.fast.ai/) | A free course designed for people with some coding experience who want to learn how to apply deep learning and machine learning to practical problems.|
 | [Learn Machine Learning](https://www.freecodecamp.org/news/free-machine-learning-course-10-hourse/) | A free 10-hour machine learning course for beginners on the freeCodeCamp.org YouTube channel. |
 
 ## Engineering
@@ -197,4 +204,3 @@ background or formal training in design. |
 | [Shape Up](https://basecamp.com/shapeup/) | Shape Up will help you break free of “best practices” that aren’t really working, think deeper about the right problems, and start shipping meaningful projects your team can celebrate. |
 | [Build your Virtual Machine](https://www.jmeiners.com/lc3-vm/) | Tutorial on writing a virtual machine to run assembly language programs for a deeper understanding of computers and programming languages. |
 | [Probability for Computer Science](https://chrispiech.github.io/probabilityForComputerScientists/en/index.html) | Chris Piech wrote this book for Stanford’s CS109 course, Probability for Computer Scientists, originally designed by Mehran Sahami. |
-
