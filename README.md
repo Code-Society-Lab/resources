@@ -111,6 +111,7 @@ To add an item to the list, follow this [guide](https://github.com/Code-Society-
 | [Software Design Pattern](https://designpatternsmastery.com/) | DesignPatternsMastery offers a comprehensive collection of books on software design patterns for developers and architects. | 
 | [Pattern of Software](https://www.dreamsongs.com/Files/PatternsOfSoftware.pdf) | The essays in this book originated as columns for the Journal of Object-Oriented Programming, modeled after Samuel Johnson’s The Rambler.|
 | [Design Pattern](https://refactoring.guru/design-patterns) | Refactoring.Guru is a comprehensive resource that explains design patterns, refactoring techniques, and principles of clean code with clear examples and practical guidance for software developers. |
+| [FrontendAtlas — Frontend System Design](https://frontendatlas.com/system-design) | Frontend system design interview practice with guided questions, worked examples, RADIO drills, UI architecture prompts, scoring rubrics, and trade-offs. Some full solutions are Premium. |
 
 ## Cryptography / Security
 | Name        | Description |
